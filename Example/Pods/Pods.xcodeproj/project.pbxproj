@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		023B49581C808F4900E1E9BC /* IdramPaymentManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 023B49561C808F4900E1E9BC /* IdramPaymentManager.m */; };
+		023B49591C808F4900E1E9BC /* IdramPaymentManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 023B49571C808F4900E1E9BC /* IdramPaymentManager.h */; };
 		0F64C5CD62706EF18B2B6AD843932879 /* Pods-IdramMerchantPayment_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E3711B12C394E3FDDDE23D735D85B2F9 /* Pods-IdramMerchantPayment_Tests-dummy.m */; };
 		2B0989F50406C4F6F2B6FC4F4D95E384 /* IdramMerchantPayment-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A6F138D9985F077F9E133D2F1501EBF /* IdramMerchantPayment-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3771ECDA21FE7329B550A15E77C95DE8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
@@ -15,7 +17,6 @@
 		569800225DCB1886CF7C0652FDBC2D30 /* IdramMerchantPayment-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4858499458DA416FD4511385C7107D3E /* IdramMerchantPayment-dummy.m */; };
 		5EEE9DA39215AF721C874A4DA8A7ED3F /* Pods-IdramMerchantPayment_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CA207411D6E6CE2B14E2BE2DECC78F2 /* Pods-IdramMerchantPayment_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A1054E0509BE5E11DD409C67D90DE318 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		CAEB0FE69583A5FDD839DF83A2ED0CD7 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 12970EF9C8D9217839EF82548130FE6E /* ReplaceMe.m */; };
 		D38CE55955D69CCDB10819DB9F7E47A5 /* Pods-IdramMerchantPayment_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B9509F4D42341B320CCB91B38EA8190B /* Pods-IdramMerchantPayment_Example-dummy.m */; };
 		F15CEC4D1CBBB0E4CFE61311DAA0DA9B /* Pods-IdramMerchantPayment_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 29DD474930B277F5206EA6A737E3DF38 /* Pods-IdramMerchantPayment_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -45,10 +46,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		023B49561C808F4900E1E9BC /* IdramPaymentManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IdramPaymentManager.m; sourceTree = "<group>"; };
+		023B49571C808F4900E1E9BC /* IdramPaymentManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IdramPaymentManager.h; sourceTree = "<group>"; };
 		06189B129E53E5A861CAE8998CCFC499 /* Pods-IdramMerchantPayment_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IdramMerchantPayment_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		07D0EC9EA6A654C16BE8EC4F14A4EAD6 /* IdramMerchantPayment.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IdramMerchantPayment.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F7E60244D0503B30C676224C1A9B959 /* Pods-IdramMerchantPayment_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-IdramMerchantPayment_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		12970EF9C8D9217839EF82548130FE6E /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		20A025F2BE812FAB4C20EC2A67D17D6E /* Pods_IdramMerchantPayment_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IdramMerchantPayment_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		231422C66F3CA943F260C1AEC0F5F52C /* Pods-IdramMerchantPayment_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IdramMerchantPayment_Tests-resources.sh"; sourceTree = "<group>"; };
 		29DD474930B277F5206EA6A737E3DF38 /* Pods-IdramMerchantPayment_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-IdramMerchantPayment_Example-umbrella.h"; sourceTree = "<group>"; };
@@ -167,7 +169,8 @@
 		882B001C4A1E54160148BDAE632595F1 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				12970EF9C8D9217839EF82548130FE6E /* ReplaceMe.m */,
+				023B49561C808F4900E1E9BC /* IdramPaymentManager.m */,
+				023B49571C808F4900E1E9BC /* IdramPaymentManager.h */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -254,6 +257,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B0989F50406C4F6F2B6FC4F4D95E384 /* IdramMerchantPayment-umbrella.h in Headers */,
+				023B49591C808F4900E1E9BC /* IdramPaymentManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,7 +359,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0700;
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0720;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -400,8 +404,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				023B49581C808F4900E1E9BC /* IdramPaymentManager.m in Sources */,
 				569800225DCB1886CF7C0652FDBC2D30 /* IdramMerchantPayment-dummy.m in Sources */,
-				CAEB0FE69583A5FDD839DF83A2ED0CD7 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -479,7 +483,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 				VALIDATE_PRODUCT = YES;
@@ -504,6 +508,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -518,7 +523,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
@@ -539,10 +544,11 @@
 				GCC_PREFIX_HEADER = "Target Support Files/IdramMerchantPayment/IdramMerchantPayment-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/IdramMerchantPayment/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/IdramMerchantPayment/IdramMerchantPayment.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = IdramMerchantPayment;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -565,7 +571,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-IdramMerchantPayment_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-IdramMerchantPayment_Tests/Pods-IdramMerchantPayment_Tests.modulemap";
@@ -573,6 +579,7 @@
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Pods_IdramMerchantPayment_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -596,10 +603,11 @@
 				GCC_PREFIX_HEADER = "Target Support Files/IdramMerchantPayment/IdramMerchantPayment-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/IdramMerchantPayment/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/IdramMerchantPayment/IdramMerchantPayment.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = IdramMerchantPayment;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -634,7 +642,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-IdramMerchantPayment_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-IdramMerchantPayment_Example/Pods-IdramMerchantPayment_Example.modulemap";
@@ -642,6 +650,7 @@
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Pods_IdramMerchantPayment_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -664,7 +673,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-IdramMerchantPayment_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-IdramMerchantPayment_Example/Pods-IdramMerchantPayment_Example.modulemap";
@@ -672,6 +681,7 @@
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Pods_IdramMerchantPayment_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -694,7 +704,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-IdramMerchantPayment_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-IdramMerchantPayment_Tests/Pods-IdramMerchantPayment_Tests.modulemap";
@@ -702,6 +712,7 @@
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Pods_IdramMerchantPayment_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
