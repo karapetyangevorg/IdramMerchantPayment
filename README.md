@@ -30,9 +30,9 @@ You can simply download IdramPaymentManager.h and IdramPaymentManager.m and Drag
   2. In your Info.plist file add following:
 ``` XML
 <key>LSApplicationQueriesSchemes</key>
-<array>
-<string>idramapp</string>
-</array>
+ <array>
+   <string>idramapp</string>
+ </array>
 ```
 ##
   
