@@ -24,12 +24,12 @@ You can simply download IdramPaymentManager.h and IdramPaymentManager.m and Drag
   1. After setting up dependencies import header 
      #import "IdramPaymentManager.h"
   2. In your Info.plist file add following:
-    	``` objc
-      <key>LSApplicationQueriesSchemes</key>
-	    <array>
-		    <string>idramapp</string>
-	    </array>
-	    ```
+``` objc
+<key>LSApplicationQueriesSchemes</key>
+    <array>
+	<string>idramapp</string>
+    </array>
+```
 ##
   
 
