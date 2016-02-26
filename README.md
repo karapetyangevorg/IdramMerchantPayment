@@ -56,6 +56,15 @@ Currently 'IdramPaymentManager' has single class method:
 <your URL Scheme>://payment/idram?error=<0 for success or error code>&receiverId=<id>&tip=<tip amount>
 ```
 
+### Error codes
+
+0         -> Unknown error
+110099    -> Operation is canceled by user
+110012    -> Idram ID recipient does not exist or is blocked.
+110043    -> The service is currently unavailable. Please, try again later.
+
+Other errors are handled by Idram application 
+
 ##
   
 
