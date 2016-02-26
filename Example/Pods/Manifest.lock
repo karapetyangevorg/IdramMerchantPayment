@@ -1,5 +1,5 @@
 PODS:
-  - IdramMerchantPayment (0.1.0)
+  - IdramMerchantPayment (0.0.3)
 
 DEPENDENCIES:
   - IdramMerchantPayment (from `../`)
@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  IdramMerchantPayment: 8d0490710784d34596c787000343764b74abc5db
+  IdramMerchantPayment: a0c9cab59fb5079cd807e52b27dba72c4ffcbe26
 
 COCOAPODS: 0.39.0

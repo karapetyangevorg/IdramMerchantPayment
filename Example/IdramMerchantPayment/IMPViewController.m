@@ -7,6 +7,7 @@
 //
 
 #import "IMPViewController.h"
+#import "IdramPaymentManager.h"
 
 
 @interface IMPViewController ()
