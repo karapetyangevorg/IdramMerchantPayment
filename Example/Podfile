@@ -4,9 +4,3 @@ use_frameworks!
 target 'IdramMerchantPayment_Example', :exclusive => true do
   pod 'IdramMerchantPayment', :path => '../'
 end
-
-target 'IdramMerchantPayment_Tests', :exclusive => true do
-  pod 'IdramMerchantPayment', :path => '../'
-
-  
-end
