@@ -51,6 +51,11 @@ Currently 'IdramPaymentManager' has single class method:
                            callbackURLScheme:@"Your URL Scheme"];
 ```
     
+## Callback
+```
+<your URL Scheme>://payment/idram?error=<0 for success or error code>&receiverId=<id>&tip=<tip amount>
+```
+
 ##
   
 
