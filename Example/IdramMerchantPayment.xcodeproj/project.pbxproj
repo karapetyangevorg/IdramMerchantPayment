@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		023B49441C806BEE00E1E9BC /* Launch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 023B49431C806BEE00E1E9BC /* Launch.storyboard */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		023B49431C806BEE00E1E9BC /* Launch.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Launch.storyboard; path = ../../../../Desktop/Launch.storyboard; sourceTree = "<group>"; };
 		07DB998DD742F8CFAC2674A9 /* Pods-IdramMerchantPayment_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IdramMerchantPayment_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IdramMerchantPayment_Example/Pods-IdramMerchantPayment_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		1035FA94ABCA61FBFC058EE3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		15C1C72BDC1C6E9A04F72EAD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
@@ -148,6 +150,7 @@
 				6003F5A6195388D20070C39A /* IMPViewController.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				023B49431C806BEE00E1E9BC /* Launch.storyboard */,
 			);
 			name = "Example for IdramMerchantPayment";
 			path = IdramMerchantPayment;
@@ -279,6 +282,7 @@
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				023B49441C806BEE00E1E9BC /* Launch.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -512,10 +516,10 @@
 			baseConfigurationReference = 07DB998DD742F8CFAC2674A9 /* Pods-IdramMerchantPayment_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "IdramMerchantPayment/IdramMerchantPayment-Prefix.pch";
 				INFOPLIST_FILE = "IdramMerchantPayment/IdramMerchantPayment-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -528,10 +532,10 @@
 			baseConfigurationReference = F1908F8FBB79354074AC74F7 /* Pods-IdramMerchantPayment_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "IdramMerchantPayment/IdramMerchantPayment-Prefix.pch";
 				INFOPLIST_FILE = "IdramMerchantPayment/IdramMerchantPayment-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -1,0 +1,6 @@
+framework module IdramMerchantPayment {
+  umbrella header "IdramMerchantPayment-umbrella.h"
+
+  export *
+  module * { export * }
+}
