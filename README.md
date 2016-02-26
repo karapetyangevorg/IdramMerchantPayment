@@ -13,6 +13,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
+# Cocoapods
 IdramMerchantPayment is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
@@ -22,7 +23,7 @@ pod "IdramMerchantPayment"
 
 ## Author
 
-Gagik Martirosyan, g_martirosyan@bitbucket.org
+Gagik Martirosyan, g.martirosjan@gmail.com
 
 ## License
 
