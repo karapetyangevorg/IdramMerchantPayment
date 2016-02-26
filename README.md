@@ -34,6 +34,23 @@ You can simply download IdramPaymentManager.h and IdramPaymentManager.m and Drag
    <string>idramapp</string>
  </array>
 ```
+
+  3. If you need to open your application you need to set up 'URL Types' in your Info.plist. See http://iosdevelopertips.com/cocoa/launching-your-own-application-via-a-custom-url-scheme.html
+  4. Also implement handleOpenURL method in your appDelegate.m to handle success or failure callbacks from Idram app.
+  
+
+## Documentation 
+Currently 'IdramPaymentManager' has single class method:
+
+``` ObjC
+    [IdramPaymentManager payWithReceiverName:@"Some name"
+                                  receiverId:@"Users Idram Id"
+                                       title:@"Payment Title"
+                                      amount:@"10000"
+                                      hasTip:YES
+                           callbackURLScheme:@"Your URL Scheme"];
+```
+    
 ##
   
 
