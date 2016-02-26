@@ -17,6 +17,22 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 IdramMerchantPayment is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
+### Manual instalation 
+You can simply download IdramPaymentManager.h and IdramPaymentManager.m and Drag & Drop to your project.
+
+## Usage 
+  1. After setting up dependencies import header 
+     #import "IdramPaymentManager.h"
+  2. In your Info.plist file add following:
+    	``` objc
+      <key>LSApplicationQueriesSchemes</key>
+	    <array>
+		    <string>idramapp</string>
+	    </array>
+	    ```
+##
+  
+
 ```ruby
 pod "IdramMerchantPayment"
 ```
