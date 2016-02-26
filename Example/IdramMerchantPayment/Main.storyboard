@@ -1,28 +1,123 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="whP-gf-Uak">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vxj-4k-ja0">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="wQg-tq-qST">
+        <scene sceneID="acm-JM-cv8">
             <objects>
-                <viewController id="whP-gf-Uak" customClass="IMPViewController" sceneMemberID="viewController">
+                <viewController id="vxj-4k-ja0" customClass="IMPViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="uEw-UM-LJ8"/>
-                        <viewControllerLayoutGuide type="bottom" id="Mvr-aV-6Um"/>
+                        <viewControllerLayoutGuide type="top" id="IkZ-gb-jzg"/>
+                        <viewControllerLayoutGuide type="bottom" id="IVw-gj-r1E"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="TpU-gO-2f1">
+                    <view key="view" contentMode="scaleToFill" id="lfH-HB-xtB">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="spF-jg-n9t">
+                                <rect key="frame" x="100" y="325" width="120" height="30"/>
+                                <state key="normal" title="Pay via Idram"/>
+                                <connections>
+                                    <action selector="payButtonAction:" destination="vxj-4k-ja0" eventType="touchUpInside" id="btA-2K-fza"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Gagik Martirosyan" borderStyle="roundedRect" placeholder="Receiver Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jdk-Zm-H6S">
+                                <rect key="frame" x="35" y="50" width="250" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="V7j-Wk-pMU"/>
+                                    <constraint firstAttribute="height" constant="30" id="rJK-9m-aS1"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="556010199" borderStyle="roundedRect" placeholder="Receiver id" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="IbW-oo-YdN">
+                                <rect key="frame" x="35" y="88" width="250" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="W6F-oj-uWF"/>
+                                    <constraint firstAttribute="width" constant="250" id="gbW-dW-aGK"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="123" borderStyle="roundedRect" placeholder="Title" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gTq-AM-VDD">
+                                <rect key="frame" x="35" y="126" width="250" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="7h6-Le-Ezw"/>
+                                    <constraint firstAttribute="width" constant="250" id="l6G-GE-2Pc"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="111" borderStyle="roundedRect" placeholder="Amount" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ts1-TX-Gx4">
+                                <rect key="frame" x="35" y="164" width="250" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="UTY-oI-RMv"/>
+                                    <constraint firstAttribute="height" constant="30" id="cfj-9e-KcV"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Callback URL Scheme (Optional)" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Xjy-Qh-i8O">
+                                <rect key="frame" x="35" y="202" width="250" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="XYB-Il-wTl"/>
+                                    <constraint firstAttribute="width" constant="250" id="bUJ-kc-1Gf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ByM-qL-3dM">
+                                <rect key="frame" x="236" y="240" width="51" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="31" id="DhM-CW-XwT"/>
+                                    <constraint firstAttribute="width" constant="49" id="UML-au-01R"/>
+                                </constraints>
+                            </switch>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Has tip" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QMg-aJ-OXi">
+                                <rect key="frame" x="103" y="245" width="125" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="125" id="FCy-cT-gVR"/>
+                                    <constraint firstAttribute="height" constant="21" id="lsh-5S-scV"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="IbW-oo-YdN" firstAttribute="centerX" secondItem="lfH-HB-xtB" secondAttribute="centerX" id="34K-1g-SWx"/>
+                            <constraint firstItem="ByM-qL-3dM" firstAttribute="leading" secondItem="QMg-aJ-OXi" secondAttribute="trailing" constant="8" id="8dC-lQ-WrM"/>
+                            <constraint firstItem="QMg-aJ-OXi" firstAttribute="top" secondItem="Xjy-Qh-i8O" secondAttribute="bottom" constant="13" id="BWg-qZ-y1b"/>
+                            <constraint firstItem="Ts1-TX-Gx4" firstAttribute="top" secondItem="gTq-AM-VDD" secondAttribute="bottom" constant="8" id="Ci8-DA-kRb"/>
+                            <constraint firstItem="Xjy-Qh-i8O" firstAttribute="top" secondItem="Ts1-TX-Gx4" secondAttribute="bottom" constant="8" id="Hf8-Rp-5Je"/>
+                            <constraint firstItem="Xjy-Qh-i8O" firstAttribute="centerX" secondItem="lfH-HB-xtB" secondAttribute="centerX" id="Uv1-xG-3a9"/>
+                            <constraint firstItem="gTq-AM-VDD" firstAttribute="centerX" secondItem="lfH-HB-xtB" secondAttribute="centerX" id="VST-JM-mTt"/>
+                            <constraint firstItem="IbW-oo-YdN" firstAttribute="top" secondItem="jdk-Zm-H6S" secondAttribute="bottom" constant="8" id="hSO-4q-dhg"/>
+                            <constraint firstItem="Ts1-TX-Gx4" firstAttribute="centerX" secondItem="lfH-HB-xtB" secondAttribute="centerX" id="iSz-D4-6Lw"/>
+                            <constraint firstItem="ByM-qL-3dM" firstAttribute="top" secondItem="Xjy-Qh-i8O" secondAttribute="bottom" constant="8" id="oZN-gK-3VT"/>
+                            <constraint firstItem="jdk-Zm-H6S" firstAttribute="top" secondItem="IkZ-gb-jzg" secondAttribute="bottom" constant="30" id="otl-Ld-b3Z"/>
+                            <constraint firstItem="ByM-qL-3dM" firstAttribute="trailing" secondItem="Xjy-Qh-i8O" secondAttribute="trailing" id="urU-lF-LE7"/>
+                            <constraint firstItem="gTq-AM-VDD" firstAttribute="top" secondItem="IbW-oo-YdN" secondAttribute="bottom" constant="8" id="yMb-xs-JIT"/>
+                            <constraint firstItem="jdk-Zm-H6S" firstAttribute="centerX" secondItem="lfH-HB-xtB" secondAttribute="centerX" id="zrF-q0-04L"/>
+                        </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="amountField" destination="Ts1-TX-Gx4" id="Fdq-NX-pyy"/>
+                        <outlet property="callbackURLSchemeField" destination="Xjy-Qh-i8O" id="qfe-HA-o6n"/>
+                        <outlet property="hasTipSwitch" destination="ByM-qL-3dM" id="agg-u2-pWq"/>
+                        <outlet property="receiverIdField" destination="IbW-oo-YdN" id="N7B-RT-bL8"/>
+                        <outlet property="receiverNameField" destination="jdk-Zm-H6S" id="8FE-GG-UgB"/>
+                        <outlet property="titleField" destination="gTq-AM-VDD" id="yxH-xU-DWy"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="tc2-Qw-aMS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8Dc-8e-8WA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="305" y="433"/>
+            <point key="canvasLocation" x="198" y="441"/>
         </scene>
     </scenes>
 </document>

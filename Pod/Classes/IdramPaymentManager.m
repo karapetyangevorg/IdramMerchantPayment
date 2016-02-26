@@ -62,7 +62,7 @@
     
     if (hasTip) {
         
-        [urlString appendString:@"&hasTip=0"];
+        [urlString appendString:@"&tip=0"];
     }
     
     if (callbackURLScheme && callbackURLScheme.length > 0) {
