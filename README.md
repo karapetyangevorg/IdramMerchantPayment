@@ -21,7 +21,7 @@ it, simply add the following line to your Podfile:
 pod "IdramMerchantPayment"
 ```
 
-### Manual instalation 
+### Manual installation 
 You can simply download IdramPaymentManager.h and IdramPaymentManager.m and Drag & Drop to your project.
 
 ## Usage 
@@ -44,8 +44,8 @@ Currently 'IdramPaymentManager' has single class method:
 
 ``` ObjC
     [IdramPaymentManager payWithReceiverName:@"Some name"
-                                  receiverId:@"Users Idram Id"
-                                       title:@"Payment Title"
+                                  receiverId:@"Users Idram Id. (EDP_REC_ACCOUNT)"
+                                       title:@"Unique id for payment identification of merchant billing. (EDP_BILL_NO)"
                                       amount:@"10000"
                                       hasTip:YES
                            callbackURLScheme:@"Your URL Scheme"];
