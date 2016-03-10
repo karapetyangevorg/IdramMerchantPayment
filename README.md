@@ -58,10 +58,10 @@ Currently 'IdramPaymentManager' has single class method:
 
 ### Error codes
 
-0         -> Unknown error
-110099    -> Operation is canceled by user
-110012    -> Idram ID recipient does not exist or is blocked.
-110043    -> The service is currently unavailable. Please, try again later.
+1. 0         -> Unknown error
+2. 110099    -> Operation is canceled by user
+3. 110012    -> Idram ID recipient does not exist or is blocked.
+4. 110043    -> The service is currently unavailable. Please, try again later.
 
 Other errors are handled by Idram application 
 
