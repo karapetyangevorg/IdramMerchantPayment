@@ -53,7 +53,7 @@
     
     if (amount && [amount floatValue] > 0) {
         
-        [urlString appendFormat:@"&amount=%@", title];
+        [urlString appendFormat:@"&amount=%@", amount];
     }
     else {
         NSLog(@"IdramPaymentManager::ERROR: **amount can not be empty**");
