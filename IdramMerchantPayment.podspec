@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "IdramMerchantPayment"
-  s.version          = "0.0.4"
+  s.version          = "0.0.5"
   s.summary          = "IdramMerchantPayment is used for making payments via Idram app"
 
 # This description is used to generate tags and improve search results.
@@ -31,9 +31,9 @@ Pod::Spec.new do |s|
 
 #s.source_files = 'Pod/Classes/TestHeader.h'
   s.source_files = 'Classes', 'Pod/Classes/**/*.{h,m}'
-  s.resource_bundles = {
-    'IdramMerchantPayment' => ['Pod/Assets/*.png']
-  }
+  #s.resource_bundles = {
+  #  'IdramMerchantPayment' => ['Pod/Assets/*.png']
+  #}
 
 # s.public_header_files = 'Pod/Classes/TestHeader.h'
   # s.frameworks = 'UIKit', 'MapKit'
