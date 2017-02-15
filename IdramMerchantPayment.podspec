@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "IdramMerchantPayment"
-  s.version          = "0.0.5"
+  s.version          = "0.1.0"
   s.summary          = "IdramMerchantPayment is used for making payments via Idram app"
 
 # This description is used to generate tags and improve search results.
